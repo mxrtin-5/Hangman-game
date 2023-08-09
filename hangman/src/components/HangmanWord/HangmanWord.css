@@ -1,0 +1,21 @@
+.hangman-word{
+    display: flex;
+    gap: 1rem;
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+    width: 30rem;
+}
+
+.span-letter{
+    border-bottom: .1em solid black;
+}
+
+.span-visibility{
+    visibility: hidden;
+}
+
+.span-visible{
+    visibility: visible ;
+}

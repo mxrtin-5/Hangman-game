@@ -1,0 +1,95 @@
+.hangman-drawing-container{
+    position: relative;
+}
+
+.hangman-drawing{
+    height: 10px;
+    width: 250px;
+    background-color: black;
+}
+
+.hangman-drawing-style{
+    height: 400px;
+    width: 10px;
+    background-color: black;
+    margin-left: 120px;
+}
+
+.hangman-drawing-styles{
+    height: 10px;
+    width: 200px;
+    background-color: black;
+    margin-left: 120px;
+}
+
+.ya-me-quede-sin-ideas{
+    position: absolute;
+    height: 50px;
+    width: 10px;
+    background-color: black;
+    top: 0;
+    right: 150px;
+}
+
+.head-hangman{
+    width:50px ;
+    height: 50px;
+    border-radius: 100%;
+    border: 10px solid black;
+    position: absolute;
+    top: 50px;
+    right: 120px;
+}
+
+.body-hangman{
+    width: 10px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 119px;
+    right: 150px;
+}
+
+.right-arm{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    rotate: -30deg;
+    transform-origin: left bottom;
+}
+
+.left-arm{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 145px;
+    right: 50px;
+    rotate: 210deg;
+    transform-origin: left bottom;
+}
+
+.right-leg{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 208px;
+    right:60px;
+    rotate:60deg;
+    transform-origin: left bottom ;
+}
+
+.left-leg{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 207px;
+    right:150px;
+    rotate: -60deg;
+    transform-origin: right bottom;
+}

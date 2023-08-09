@@ -1,0 +1,18 @@
+html{
+  background-color: rgb(199, 204, 204);
+}
+
+
+.container-body{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  align-items: center;
+  
+}
+
+.lose-win{
+  font-size: 2rem;
+  text-align: center;
+}
